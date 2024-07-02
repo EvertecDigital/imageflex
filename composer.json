@@ -1,0 +1,39 @@
+{
+  "name": "evertecdigital/imageflex",
+  "description": "Dynamic Image Resizer and Cache Manager. This script handles resizing and caching of images based on provided width and height parameters",
+  "keywords": [
+    "ImageFlex",
+    "Image process",
+    "Image compress",
+    "image thumb",
+    "image crop",
+    "image cache",
+    "thumbnails jpg",
+    "thumbnails png",
+    "thumbnails webp",
+    "jpg to png",
+    "png to jpg",
+    "webp converter"
+  ],
+  "homepage": "https://www.evertecdigital.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Everson Aguiar",
+      "email": "suporte@evertecdigital.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-gd": "*",
+    "ext-mbstring": "*",
+    "ext-fileinfo": "*",
+    "rosell-dk/webp-convert": "2.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "evertecdigital\\imageflex\\": "src"
+    }
+  }
+}
