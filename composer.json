@@ -2,7 +2,10 @@
   "name": "evertecdigital/imageflex",
   "description": "Dynamic Image Resizer Manager.",
   "keywords": [
-    "imageflex",
+    "image",
+    "resize",
+    "watermark",
+    "GD",
     "Image process",
     "Image compress",
     "image thumb",
@@ -19,20 +22,25 @@
     "git to webp",
     "webp converter"
   ],
-  "homepage": "https://www.evertecdigital.com.br",
+  "homepage": "https://github.com/EvertecDigital/imageflex",
   "license": "MIT",
   "authors": [
     {
       "name": "Everson Aguiar",
       "email": "suporte@evertecdigital.com.br",
+      "homepage": "http://www.evertecdigital.com.br",
       "role": "Developer"
     }
   ],
   "require": {
     "php": ">=7.4",
+    "phpunit/phpunit": "^9.0",
     "ext-gd": "*",
     "ext-mbstring": "*",
     "ext-fileinfo": "*"
+  },
+  "scripts": {
+    "test": "phpunit"
   },
   "autoload": {
     "psr-4": {
