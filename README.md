@@ -38,11 +38,6 @@ ou execute
 composer require evertecdigital/imageflex
 ```
 
-### Via download direto
-
-1. Faça o download do arquivo `imageflex.php` e coloque-o no seu projeto.
-2. Certifique-se de que a extensão GD está habilitada no seu ambiente PHP.
-
 ## Uso
 
 ### Configurações Básicas
