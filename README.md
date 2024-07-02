@@ -4,7 +4,6 @@
 [![Source Code](http://img.shields.io/badge/source-evertecdigital/imageflex-blue.svg?style=flat-square)](https://github.com/evertecdigital/imageflex)
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/evertecdigital/imageflex.svg?style=flat-square)](https://packagist.org/packages/evertecdigital/imageflex)
 [![Latest Version](https://img.shields.io/github/release/evertecdigital/imageflex.svg?style=flat-square)](https://github.com/evertecdigital/imageflex/releases)
-[![Dependency Status](https://img.shields.io/librariesio/release/packagist/evertecdigital/imageflex.svg?style=flat-square)](https://libraries.io/packagist/evertecdigital%2Fimageflex)
 [![Issues](https://img.shields.io/github/issues/evertecdigital/imageflex.svg?style=flat-square)](https://github.com/evertecdigital/imageflex/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/evertecdigital/imageflex.svg?style=flat-square)](https://github.com/evertecdigital/imageflex/pulls)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
