@@ -40,6 +40,8 @@ ImageFlex::setWatermarkPosition('middle center'); // Defina a posição da marca
             <h2 class="mt-5">Image 800 x 800</h2>
             <img  class="img-fluid"  src="<?= ImageFlex::resize('images/beach.jpg', 800, 800); ?>" title="ImageFlex" />
 
+              <h2 class="mt-5">Image 800 x auto</h2>
+            <img  class="img-fluid"  src="<?= ImageFlex::resize('images/beach.jpg', 1080); ?>" title="ImageFlex" />
         </div>
     </body>
 </html>

@@ -1,6 +1,6 @@
 {
-  "name": "evertecdigital/imageflex",
-  "description": "Dynamic Image Resizer and Cache Manager. This script handles resizing and caching of images based on provided width and height parameters",
+  "name": "EvertecDigital/ImageFlex",
+  "description": "Dynamic Image Resizer Manager.",
   "keywords": [
     "ImageFlex",
     "Image process",
@@ -13,6 +13,10 @@
     "thumbnails webp",
     "jpg to png",
     "png to jpg",
+    "png to webp",
+    "jpeg to webp",
+    "jpg to webp",
+    "git to webp",
     "webp converter"
   ],
   "homepage": "https://www.evertecdigital.com.br",
@@ -28,8 +32,7 @@
     "php": ">=7.4",
     "ext-gd": "*",
     "ext-mbstring": "*",
-    "ext-fileinfo": "*",
-    "rosell-dk/webp-convert": "2.5.0"
+    "ext-fileinfo": "*"
   },
   "autoload": {
     "psr-4": {
