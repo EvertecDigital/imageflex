@@ -5,7 +5,6 @@
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/evertecdigital/imageflex.svg?style=flat-square)](https://packagist.org/packages/evertecdigital/imageflex)
 [![Latest Version](https://img.shields.io/github/release/evertecdigital/imageflex.svg?style=flat-square)](https://github.com/evertecdigital/imageflex/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Quality Score](https://img.shields.io/scrutinizer/g/evertecdigital/imageflex.svg?style=flat-square)](https://scrutinizer-ci.com/g/evertecdigital/imageflex)
 [![Total Downloads](https://img.shields.io/packagist/dt/evertecdigital/imageflex.svg?style=flat-square)](https://packagist.org/packages/evertecdigital/imageflex)
 
 ImageFlex é uma classe PHP para gerenciamento e manipulação de imagens usando a biblioteca GD. Ela permite redimensionar imagens, adicionar marcas d'água e preservar a transparência das imagens originais.
