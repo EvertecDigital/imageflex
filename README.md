@@ -1,4 +1,4 @@
-# imageflex
+# ImageFlex
 
 [![Maintainer](http://img.shields.io/badge/maintainer-@evertecdigital-blue.svg?style=flat-square)](https://twitter.com/evertecdigital)
 [![Source Code](http://img.shields.io/badge/source-coffeecode/imageflex-blue.svg?style=flat-square)](https://github.com/evertecdigital/imageflex)
@@ -8,7 +8,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/evertecdigital/imageflex.svg?style=flat-square)](https://scrutinizer-ci.com/g/evertecdigital/imageflex)
 [![Total Downloads](https://img.shields.io/packagist/dt/coffeecode/imageflex.svg?style=flat-square)](https://packagist.org/packages/coffeecode/imageflex)
 
-imageflex é uma classe PHP para gerenciamento e manipulação de imagens usando a biblioteca GD. Ela permite redimensionar imagens, adicionar marcas d'água e preservar a transparência das imagens originais.
+ImageFlex é uma classe PHP para gerenciamento e manipulação de imagens usando a biblioteca GD. Ela permite redimensionar imagens, adicionar marcas d'água e preservar a transparência das imagens originais.
 
 ## Funcionalidades
 
@@ -24,6 +24,20 @@ imageflex é uma classe PHP para gerenciamento e manipulação de imagens usando
 - Extensão GD habilitada no PHP
 
 ## Instalação
+
+### Via composer
+
+```bash
+"evertecdigital/imageflex": "1.0.*"
+```
+
+ou execute
+
+```bash
+composer require evertecdigital/imageflex
+```
+
+### Via download direto
 
 1. Faça o download do arquivo `imageflex.php` e coloque-o no seu projeto.
 2. Certifique-se de que a extensão GD está habilitada no seu ambiente PHP.
