@@ -1,14 +1,14 @@
-# ImageFlex
+# imageflex
 
 [![Maintainer](http://img.shields.io/badge/maintainer-@evertecdigital-blue.svg?style=flat-square)](https://twitter.com/evertecdigital)
-[![Source Code](http://img.shields.io/badge/source-coffeecode/imageflex-blue.svg?style=flat-square)](https://github.com/EvertecDigital/ImageFlex)
+[![Source Code](http://img.shields.io/badge/source-coffeecode/imageflex-blue.svg?style=flat-square)](https://github.com/evertecdigital/imageflex)
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/coffeecode/imageflex.svg?style=flat-square)](https://packagist.org/packages/coffeecode/imageflex)
-[![Latest Version](https://img.shields.io/github/release/EvertecDigital/ImageFlex.svg?style=flat-square)](https://github.com/EvertecDigital/ImageFlex/releases)
+[![Latest Version](https://img.shields.io/github/release/evertecdigital/imageflex.svg?style=flat-square)](https://github.com/evertecdigital/imageflex/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Quality Score](https://img.shields.io/scrutinizer/g/EvertecDigital/ImageFlex.svg?style=flat-square)](https://scrutinizer-ci.com/g/EvertecDigital/ImageFlex)
+[![Quality Score](https://img.shields.io/scrutinizer/g/evertecdigital/imageflex.svg?style=flat-square)](https://scrutinizer-ci.com/g/evertecdigital/imageflex)
 [![Total Downloads](https://img.shields.io/packagist/dt/coffeecode/imageflex.svg?style=flat-square)](https://packagist.org/packages/coffeecode/imageflex)
 
-ImageFlex é uma classe PHP para gerenciamento e manipulação de imagens usando a biblioteca GD. Ela permite redimensionar imagens, adicionar marcas d'água e preservar a transparência das imagens originais.
+imageflex é uma classe PHP para gerenciamento e manipulação de imagens usando a biblioteca GD. Ela permite redimensionar imagens, adicionar marcas d'água e preservar a transparência das imagens originais.
 
 ## Funcionalidades
 
@@ -25,7 +25,7 @@ ImageFlex é uma classe PHP para gerenciamento e manipulação de imagens usando
 
 ## Instalação
 
-1. Faça o download do arquivo `ImageFlex.php` e coloque-o no seu projeto.
+1. Faça o download do arquivo `imageflex.php` e coloque-o no seu projeto.
 2. Certifique-se de que a extensão GD está habilitada no seu ambiente PHP.
 
 ## Uso
@@ -33,23 +33,23 @@ ImageFlex é uma classe PHP para gerenciamento e manipulação de imagens usando
 ### Configurações Básicas
 
 ```php
-// Inclua a classe ImageFlex
-require_once 'ImageFlex.php';
+// Inclua a classe imageflex
+require_once 'imageflex.php';
 
-// Configure a classe ImageFlex
-ImageFlex::setOutputFormat('auto'); // Formato de saída automático (igual ao da imagem original)
-ImageFlex::setQuality(85); // Qualidade de 85 para imagens JPEG e WEBP
-ImageFlex::setCompression(6); // Nível de compressão de 6 para imagens PNG
+// Configure a classe imageflex
+imageflex::setOutputFormat('auto'); // Formato de saída automático (igual ao da imagem original)
+imageflex::setQuality(85); // Qualidade de 85 para imagens JPEG e WEBP
+imageflex::setCompression(6); // Nível de compressão de 6 para imagens PNG
 
 $imagePath = 'images/example.jpg';
 
 // Redimensione a imagem
-$resizedImagePath = ImageFlex::resize($imagePath, 800, 600);
+$resizedImagePath = imageflex::resize($imagePath, 800, 600);
 
 if ($resizedImagePath) {
     echo 'Imagem redimensionada e salva em: ' . $resizedImagePath;
 } else {
-    echo 'Erro ao redimensionar a imagem: ' . implode(', ', ImageFlex::getErrors());
+    echo 'Erro ao redimensionar a imagem: ' . implode(', ', imageflex::getErrors());
 }
 ```
 
@@ -58,7 +58,7 @@ if ($resizedImagePath) {
 Simplifique utilizando diretamente na tag HTML.
 
 ```php
-<img src="<?= ImageFlex::resize($imagePath, 800, 600);?>">
+<img src="<?= imageflex::resize($imagePath, 800, 600);?>">
 ```
 
 ## Adicionar Marca d'Água
@@ -67,17 +67,17 @@ Simplifique utilizando diretamente na tag HTML.
 $watermarkPath = 'images/watermark.png';
 
 // Configure a marca d'água
-ImageFlex::setWatermark($watermarkPath); // Defina a imagem da marca d'água
-ImageFlex::setWatermarkOpacity(50); // Defina a opacidade da marca d'água para 50%
-ImageFlex::setWatermarkPosition('bottom right'); // Defina a posição da marca d'água para canto inferior direito
+imageflex::setWatermark($watermarkPath); // Defina a imagem da marca d'água
+imageflex::setWatermarkOpacity(50); // Defina a opacidade da marca d'água para 50%
+imageflex::setWatermarkPosition('bottom right'); // Defina a posição da marca d'água para canto inferior direito
 
 // Redimensione a imagem e aplique a marca d'água
-$resizedImagePath = ImageFlex::resize($imagePath, 800, 600);
+$resizedImagePath = imageflex::resize($imagePath, 800, 600);
 
 if ($resizedImagePath) {
     echo 'Imagem redimensionada e salva em: ' . $resizedImagePath;
 } else {
-    echo 'Erro ao redimensionar a imagem: ' . implode(', ', ImageFlex::getErrors());
+    echo 'Erro ao redimensionar a imagem: ' . implode(', ', imageflex::getErrors());
 }
 ```
 
@@ -87,7 +87,7 @@ Se necessário, podera criar uma rotina para limpar a pasta de cache periodicame
 
 ```php
 // Limpar todas as imagens em cache
-ImageFlex::clearCache();
+imageflex::clearCache();
 ```
 
 ## Métodos Disponíveis
@@ -106,14 +106,14 @@ ImageFlex::clearCache();
 
 ## Contribuição
 
-Por favor, veja [CONTRIBUIÇÃO](https://github.com/EvertecDigital/ImageFlex/blob/master/CONTRIBUTING.md) para maiores detalhes.
+Por favor, veja [CONTRIBUIÇÃO](https://github.com/evertecdigital/imageflex/blob/master/CONTRIBUTING.md) para maiores detalhes.
 
 ## Creditos
 
 - [Everson Aguiar](https://github.com/eversonaguiar) (Desenvolvedor)
 - [Evertec Digital](https://github.com/evertecdigital) (Business)
-- [All Contributors](https://github.com/EvertecDigital/ImageFlex/contributors) (This Project)
+- [All Contributors](https://github.com/evertecdigital/imageflex/contributors) (This Project)
 
 ## Licença
 
-A licença MIT (MIT). Consulte Arquivo de [Licença](https://github.com/EvertecDigital/ImageFlex/blob/master/LICENSE) para obter mais informações.
+A licença MIT (MIT). Consulte Arquivo de [Licença](https://github.com/evertecdigital/imageflex/blob/master/LICENSE) para obter mais informações.
