@@ -1,29 +1,10 @@
 <?php
-include ('ImageFlex.php');
+require_once ('ImageFlex.php');
 
-
-
-// Exemplo de uso
-/**
-  ImageFlex::setOutputFormat('webp');
-  ImageFlex::setQuality(80); // Define a qualidade para JPEG e WEBP
-  ImageFlex::setCompression(4); // Define o nível de compressão para PNG
-
-  $resizedImagePath = ImageFlex::resize('path/to/image.jpg', 200, 100);
-  if ($resizedImagePath) {
-  echo 'Imagem redimensionada: ' . $resizedImagePath;
-  } else {
-  echo 'Erro ao redimensionar a imagem: ' . implode(', ', ImageFlex::getErrors());
-  }
-
-  // Limpar cache
-  ImageFlex::clearCache();
-
- */
 $watermarkPath = 'images/approved.png';
 
 // Configure a classe ImageFlex
-ImageFlex::setOutputFormat('webp'); // Formato de saída automático (igual ao da imagem original)
+ImageFlex::setOutputFormat('auto'); // Formato de saída automático (igual ao da imagem original)
 ImageFlex::setQuality(85); // Qualidade de 85 para imagens JPEG e WEBP
 ImageFlex::setCompression(6); // Nível de compressão de 6 para imagens PNG
 ImageFlex::setWatermark($watermarkPath); // Defina a imagem da marca d'água
