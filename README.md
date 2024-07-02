@@ -106,18 +106,14 @@ ImageFlex::clearCache();
 
 ## Contribuição
 
-Por favor, veja [CONTRIBUIÇÃO](https://github.com/evertecdigital/imageflex/blob/master/CONTRIBUTING.md) para maiores detalhes.
-
-## Suporte
-
-Se você descobrir algum problema relacionado à segurança, envie um e-mail para suporte@evertecdigital.com.br em vez de usar o **Issues**.
+Por favor, veja [CONTRIBUIÇÃO](https://github.com/EvertecDigital/ImageFlex/blob/master/CONTRIBUTING.md) para maiores detalhes.
 
 ## Creditos
 
 - [Everson Aguiar](https://github.com/eversonaguiar) (Desenvolvedor)
 - [Evertec Digital](https://github.com/evertecdigital) (Business)
-- [All Contributors](https://github.com/evertecdigital/imageflex/contributors) (This Project)
+- [All Contributors](https://github.com/EvertecDigital/ImageFlex/contributors) (This Project)
 
 ## Licença
 
-A licença MIT (MIT). Consulte Arquivo de [Licença](https://github.com/evertecdigital/imageflex/blob/master/LICENSE) para obter mais informações.
+A licença MIT (MIT). Consulte Arquivo de [Licença](https://github.com/EvertecDigital/ImageFlex/blob/master/LICENSE) para obter mais informações.
